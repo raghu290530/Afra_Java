@@ -20,7 +20,12 @@ public class BubbleSort {
                     a[j] = a[j+1];
                     a[j+1] = t;
                 }
+                for (int k = 0; k < a.length; k++) {
+                    System.out.print(a[k]+" ");
+                }
+                System.out.println();
             }
+                System.out.println();
         }
         System.out.print("Array after sorting: ");
         for (int i = 0; i < a.length; i++) {
