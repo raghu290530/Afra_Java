@@ -12,6 +12,10 @@ public class SelectionSort {
         for(int i=0;i<a.length;i++){
             a[i]=sc.nextInt();
         }
+        System.out.print("Before sorting: ");
+        for (int i = 0; i < a.length; i++) {
+            System.out.print(a[i]+" ");
+        }
         //Selection sort
         for (int i = 0; i < a.length-1; i++) {
             for(int j=i+1;j<a.length;j++){
