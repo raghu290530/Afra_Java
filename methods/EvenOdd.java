@@ -5,10 +5,11 @@ using functions print range of even numbers 10 20 -> 10 12 14 16 18 20
 */
 public class EvenOdd {
     public static void main(String[] args) {
-        System.out.println(isEven(5));
-        System.out.println(isEven(6));
-        System.out.println(isOdd(5));
-        System.out.println(isOdd(6));
+        isEven(10);
+        // System.out.println(isEven(5));
+        // System.out.println(isEven(6));
+        // System.out.println(isOdd(5));
+        // System.out.println(isOdd(6));
     }
 
     static boolean isEven(int n){
