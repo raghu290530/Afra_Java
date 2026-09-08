@@ -17,6 +17,8 @@ public class FirstNonRepeating {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
         firstNonRepeatingChar(s);
+        String s1 = "Raghu";
+        
     }
     public  static void firstNonRepeatingChar(String s){
         for(int i=0;i<s.length();i++){
